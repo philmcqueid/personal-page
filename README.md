@@ -1,4 +1,5 @@
 #	Projeto página pessoal
 
-- Criação do HTML da página
+- Implementando o HTML da página
+- Implementando o CSS
 
