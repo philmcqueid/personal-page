@@ -1,18 +1,59 @@
-body{
-    background-color: #ccc;
+* {
+    font-family: 'Poppins', sans-serif;
 }
+
+body {
+    background-color: #f7f7f7;
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    border: 1px solid #505050;
+}
+
+#title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 #title, .subtitle, .post-title {
-    color: blue;
+    color: #505050;
 }
 
 .post-title {
     font-size: 16px;
     font-style: normal;
+    margin: 0 0 15px;
+}
+
+.post {
+    background-color: white;
+    padding: 10px;
+    border: 3px solid #505050;
+    border-radius: 10px;
     margin-bottom: 15px;
 }
-.post{
-    background-color: white;
-    padding: 15px;
-    border: 3px solid black;
+
+.post-content {
+    margin: 0 0 15px;
+    text-align: justify;
+
+}
+
+.post-image {
     margin-bottom: 15px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contacts-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
